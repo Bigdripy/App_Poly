@@ -1,7 +1,7 @@
 import { google } from "googleapis";
 import fs from "fs";
 
-const SHEET_ID = "1QNuhfJkd9AvdPInnwqkI7pxIBoviOTNeWw5LWEVW1P0";
+const SHEET_ID = "sheet id";
 const GOOGLE_CREDENTIALS = JSON.parse(fs.readFileSync("credentials.json"));
 
 const auth = new google.auth.GoogleAuth({
